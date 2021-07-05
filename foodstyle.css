@@ -1,0 +1,30 @@
+.diet{
+    display: flex;
+   margin-bottom: 50px;
+}
+span{
+    color: orangered;
+}
+.button{
+    
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color:white;
+    padding: 10px 40px;
+    border-radius: 20px; 
+    box-shadow:5px 5px 5px orange;
+}
+.box-1{
+    margin-top: 6%;
+    width: 40%;
+    padding-left: 10%;
+}
+.about-us{
+    background-image: url(food-network-main/images/shapes/Frame\ 56.jpg);
+    display: flex;
+   margin-bottom: 50px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
