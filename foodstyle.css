@@ -1,29 +1,40 @@
 .diet{
+
     display: flex;
    margin-bottom: 50px;
    
 }
 span{
-    color: orangered;
+   background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
-.button{
     
+.button{
+    margin-top: 20%;
     text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient( #f3ec78, #af4261);
     color:white;
     padding: 10px 40px;
     border-radius: 20px; 
-    box-shadow:5px 5px 5px orange;
+    box-shadow:5px 5px 5px #af4261;
 }
 .box-1{
+    
     margin-top: 6%;
     width: 40%;
     padding-left: 10%;
     
 }
 .about-us{
-  
-    background-image: url(food-network-main/images/shapes/Frame\ 56.jpg);
+
+  width: 90%;
+  margin-left: 5%;
+    background-image: url(food-network-main/images/shapes/Frame\ 58.jpg);
     display: flex;
    margin-bottom: 50px;
    background-repeat: no-repeat;
@@ -33,24 +44,23 @@ span{
 .box-3
 { 
     
-    text-align: center;
+    text-align:center;
     flex: 33.3%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-top: 6%;
+    padding-left: 6%;
+    
      margin-top: 50px;
 }
 .box-4{
-    width: 40%;
-    padding-top: 20px;
-     padding-left: 20px;
-     padding-right: 20px;
-   margin-right: 20px;
+    width: 30%;
+    padding:20px;
+   margin-right: 15px;
    border-radius: 10px;
-    box-shadow: 10px 10px 40px rgb(120, 32, 184);
+    box-shadow: 10px 10px 20px #af4261;
 }
 .box-5{
-    width: 66%;
-    margin-left: 15%;
+    width: 90%;
+    margin-left: 6%;
 }
 .box-6{
     flex: 33.3%;
